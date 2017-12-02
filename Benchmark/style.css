@@ -1,0 +1,72 @@
+body{
+  background: rgb(245,245,245);
+  margin: 0px;
+  color: darkgray;
+  font-size: 18px;
+  font: 'Karla', sans-serif;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+h2 {
+  color: red;
+  font: italic bold;
+  font-size: 30px;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("http://lorempixel.com/1280/1000/nightlife/");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.ends{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+.ends a {
+  color: lightgrey;
+  font-size: 40px;
+  padding: 10px;
+}
+.ends a:hover {
+  color: red;
+}
+.ends a:focus {
+  color: red;
+}
+#newsletter {
+  padding: 100px;
+  background-color: white;
+}
+.super-text {
+  padding: 50px;
+}
+.card{
+  padding: 30px;
+  font-weight: lighter;
+}
